@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 } */
+
+
+body{
+  background-color: rgb(82, 82, 202);
+  display: flex;
+  justify-content: center;
+  /* align-items: end; */
+  padding-top: 20vh;
+
+  
+}
+.TodoForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-input{
+  /* opacity: 0.2; */
+  background-color: rgb(7, 7, 27);
+  padding: 10px;
+  width:350px;
+  border: rgb(82, 82, 202) 1px solid;
+  color: white;
+}
+.todo-input::placeholder{
+  color: white;
+}
+.todo-btn{
+  padding: 10px;
+  background-color:rgb(82, 82, 202);
+  color: white;
+  border: rgb(82, 82, 202) 1px solid;
+  
+}
+.TodoWrapper{
+  padding: 50px 30px;
+  background-color: rgb(14, 14, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
