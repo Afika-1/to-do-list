@@ -57,8 +57,10 @@ body{
   background-color: rgb(7, 7, 27);
   padding: 10px;
   width:350px;
-  border: rgb(82, 82, 202) 1px solid;
+  border: rgb(150, 150, 245) 1px solid;
   color: white;
+  font-size: 20px;
+
 }
 .todo-input::placeholder{
   color: white;
@@ -67,11 +69,27 @@ body{
   padding: 10px;
   background-color:rgb(82, 82, 202);
   color: white;
-  border: rgb(82, 82, 202) 1px solid;
+  border: rgb(150, 150, 245) 1px solid;
+  font-size: 20px;
   
 }
 .TodoWrapper{
   padding: 50px 30px;
   background-color: rgb(14, 14, 70);
+  
+}
+
+.Todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 0 15px;
+  border-radius: 10px;
+  background-color: rgb(82, 82, 202);
+}
+.Todo> div{
   
 }
