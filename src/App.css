@@ -73,7 +73,5 @@ body{
 .TodoWrapper{
   padding: 50px 30px;
   background-color: rgb(14, 14, 70);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
