@@ -39,7 +39,7 @@
 
 
 body{
-  background-color: rgb(82, 82, 202);
+  background-color: rgb(160, 202, 82);
   display: flex;
   justify-content: center;
   /* align-items: end; */
@@ -64,13 +64,15 @@ body{
 }
 .todo-input::placeholder{
   color: white;
+  opacity: .3;
 }
 .todo-btn{
   padding: 10px;
-  background-color:rgb(82, 82, 202);
-  color: white;
+  background-color:rgb(160, 202, 82);
+  color: black;
   border: rgb(150, 150, 245) 1px solid;
   font-size: 20px;
+  width: 120px;
   
 }
 .TodoWrapper{
@@ -84,12 +86,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: black;
   font-size: 20px;
   margin: 20px 0;
   padding: 0 15px;
   border-radius: 10px;
-  background-color: rgb(82, 82, 202);
+  background-color:  rgb(160, 202, 82);
   max-width: 450px;
 }
 h1{
